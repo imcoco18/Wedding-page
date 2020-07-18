@@ -13,3 +13,31 @@
  *= require_tree .
  *= require_self
  */
+  // Custom bootstrap variables must be set or imported *before* bootstrap.
+@import "bootstrap";
+
+* {
+	margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.clearfix::after {
+   content: "";
+   display: block;
+   clear: both;
+}
+body {
+  display: flex;
+  flex-flow: column; //要素を縦に並べる
+  min-height: 100vh; //最小でも画面の高さ分のbodyの高さを担保する
+	font-family: 'Athelas','Baskerville','Georgia','Roman','Yu Mincho Light','YuMincho','Yu Mincho','游明朝体','klee',sans-serif;
+}
+
+main {
+  flex: 1; //画面の高さから他の同レイヤーの要素の高さを引いた値に
+}
+
+ul {
+  list-style: none;
+}
+/* ---------------------------- */

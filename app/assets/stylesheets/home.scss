@@ -1,3 +1,110 @@
 // Place all the styles related to the Home controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+header {
+	width: 100%;
+
+	& .header-image {
+	height: 783px;
+	background-image: image-url("head-img.jpg");
+	background-size: cover;
+	}
+	& .header-title {
+	width: 400px;
+	color: #FFF;
+	position: absolute;
+	top: 500px;
+	right: 100px;
+	}
+	& h1 {
+	font-weight: bold;
+	font-size: 80px;
+	line-height: 1.1em;
+	text-shadow: 0px 0px 5px #ffffff ,
+	0px 0px 20px #326693,
+	0px 0px 40px #326693,
+	0px 0px 60px #31a9ee,
+	0px 0px 80px #31a9ee,
+	0px 0px 100px #31a9ee;
+	}
+	& p {
+	font-size: 20px;
+	text-align: center;
+	text-shadow: 0px 0px 5px #ffffff ,
+	0px 0px 10px #326693,
+	0px 0px 20px #326693,
+	0px 0px 30px #31a9ee,
+	0px 0px 40px #31a9ee,
+	0px 0px 50px #31a9ee;
+	}
+	& .header-top {
+	height: 130px;
+	position: relative;
+	}
+	& .header-top_left img {
+	width: 200px;
+	height: 130px;
+	}
+	& .header-tel {
+	line-height: 1;
+	}
+	& .header-tel span {
+	font-size: 14px;
+	color: #31a9ee;
+	}
+	& .header-tel span a {
+	font-size: 36px;
+	color: #31a9ee;
+	}
+	& .header-top_right {
+	position: absolute;
+  top: 50%;
+  -webkit-transform : translateY(-50%);
+  transform : translateY(-50%);
+  right: 0;
+	}
+	& .shopday {
+	color: #31a9ee;
+	font-size: 12px;
+	margin-left: 15px;
+	margin-right: 15px;
+	}
+	& .fa-stack {
+	color: #31a9ee;
+	}
+	& .header-link {
+	margin-left: 15px;
+	margin-right: 20px;
+	}
+	& .btn {
+	background-color: #BCA06B;
+	color: #FFF;
+	}
+	& .btn:last-child {
+	background-color: #003764;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
