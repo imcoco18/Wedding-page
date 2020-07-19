@@ -4,6 +4,7 @@
 
 header {
 	width: 100%;
+	border-bottom: 2px solid #E7E7E7;
 
 	& .header-image {
 	height: 783px;
@@ -39,12 +40,15 @@ header {
 	0px 0px 50px #31a9ee;
 	}
 	& .header-top {
-	height: 130px;
+	margin-right: 0 auto;
+	margin-left: 0 auto;
+	height: 100px;
 	position: relative;
+	border-bottom: 1px solid #E7E7E7;
 	}
 	& .header-top_left img {
-	width: 200px;
-	height: 130px;
+	width: 160px;
+	height: 100px;
 	}
 	& .header-tel {
 	line-height: 1;
@@ -83,6 +87,33 @@ header {
 	}
 	& .btn:last-child {
 	background-color: #003764;
+	}
+	& .header-bottom {
+	font-size: 14px;
+	height: 50px;
+	line-height: 50px;
+	text-align:center;
+	margin: 0 auto;
+
+	 & a {
+	 padding-right: 5px;
+	 padding-left: 5px;
+	 color: #31a9ee;
+	 }
+	 & ul {
+	 margin:0 auto;
+	 }
+	 & li {
+	 float: left;
+	 color: #31a9ee;
+
+	 }
+	 & li::after {
+	 content: '/';
+	 }
+	 & li:last-child::after {
+	 content: '';
+	 }
 	}
 }
 
