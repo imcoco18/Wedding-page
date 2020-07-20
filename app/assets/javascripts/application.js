@@ -16,3 +16,15 @@
 //= require turbolinks
 //= require_tree .
 //= require bootstrap-sprockets
+
+$(document).on('turbolinks:load', function() {
+ $('.slick01').slick({
+ 	autoplay: true,
+ 	slidesToScroll: 4,
+ 	slidesToShow: 4
+ });
+});
+
+$(document).on('turbolinks:load', function() {
+ $("#hoge").css("color","red")
+});
