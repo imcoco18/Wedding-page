@@ -36,7 +36,8 @@ $(document).on('turbolinks:load', ()=> {
       $('.slick02').slick({
       	arrows:false,
         autoplay:true,
-        autoplaySpeed:3000,
+        autoplaySpeed: 0,
+    		speed: 9000,
         slidesToShow: 2, //表示するスライドの数
     		slidesToScroll: 1, //スクロールで切り替わるスライドの数
 
