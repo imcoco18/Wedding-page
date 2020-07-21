@@ -18,6 +18,9 @@
 	}
 	& .top-pic_slide {
 	width: 1100px;
+	display: block;
+	margin-left: auto;
+  margin-right: auto;
 	}
 	& img {
 	width: 200px;
@@ -33,9 +36,75 @@
 	}
 }
 .top-concept_area {
-	height: 1400px;
+	height: 900px;
+	background-image: url("concept-back.jpg");
+	background-size: cover;
+	background-position: center;
+	padding-top: 170px;
 
+	& .top-concept {
+	background-color: rgba(0, 55, 100, 0.8);
+	padding: 70px 0 60px;
+  margin: 0 auto;
+  width: 547px;
+  color: #FFF;
+  text-align: center;
+	}
+	& .top-concept h2 {
+	font-size: 50px;
+	}
 }
+.top-concept_box {
+	height: 670px;
+	display: flex;
+	background-color: #F4EAD5;
+
+	& .concept-box {
+	width: 450px;
+	display: block;
+	margin-left: auto;
+  margin-right: auto;
+	}
+	& .concept-style {
+	height: 370px;
+	padding: 50px;
+	background-color: #FFF;
+	}
+
+	& h5 {
+	font-size: 16px;
+	text-align: center;
+	padding-top: 25px;
+	line-height: 2.1rem;
+	}
+	& p {
+	font-size: 13px;
+
+	}
+	& .concept-img {
+	width: 100%;
+	height: 210px;
+	}
+	& .concept {
+	width: 55px;
+	height: 52px;
+	display: block;
+	margin-left: auto;
+  margin-right: auto;
+	}
+	& .btn {
+	  display: inline-block;
+    border-radius: 3px;
+    background-color: #81CDDF;
+    color: #fff;
+    text-align: center;
+    width: 100%;
+    height: 50px;
+    cursor: pointer;
+    line-height: 2.1rem;
+	}
+}
+
 
 
 
